@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        /* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* Add your header styles here */
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+#login-signup {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input, button {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+    </style>
+</head>
+<main>
+    <h1>Welcome to Food Ordering System</h1>
+    <div id="login-signup">
+      <form id="login-form">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+      </form>
+  
+      <form id="signup-form">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-name" placeholder="Full Name" required>
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </main>
+  
